@@ -21,7 +21,7 @@ Sistema de gerenciamento de tarefas desenvolvido com **Next.js**, **TypeScript**
 
 ### 🔹 Clonar o repositório
 ```sh
-git clone https://github.com/seu-usuario/crud_tasks.git
+git clone https://github.com/davasm/crud_tasks.git
 ```
 
 ### 🔹 Entrar na pasta do projeto
