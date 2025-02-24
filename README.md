@@ -3,7 +3,7 @@
 📋 Sobre o Projeto
 Sistema de gerenciamento de tarefas desenvolvido com Next.js, TypeScript e TailwindCSS. Permite criar, listar, atualizar e deletar tarefas (CRUD).
 
-- 🚀 Funcionalidades
+🚀 Funcionalidades
 - ✅ Criar novas tarefas
 - 📝 Editar tarefas existentes
 - 🗑️ Deletar tarefas
