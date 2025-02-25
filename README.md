@@ -39,7 +39,7 @@ npm install
 npm run dev
 ```
 
-Após iniciar o servidor, acesse **[http://localhost:3000](http://localhost:3000)** no navegador.
+Após iniciar o servidor, acesse **[http://localhost:3000](http://localhost:3000/home)** no navegador.
 
 ## 📝 Como Usar
 1. Clique em **"Nova Tarefa"** para criar uma tarefa.
