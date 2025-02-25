@@ -1,5 +1,5 @@
 export const TASK_TABLE_HEAD = [
-    { head: "#" },
+    { head: "Índice" },
     { head: "Título" },
     { head: "Descrição" },
     { head: "Data de Criação" },

@@ -98,7 +98,7 @@ export default function Create() {
                  setSubmitError(null);
                  setFormData({ ...formData, title: e.target.value });
                }}
-               className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+               className="mt-1 block w-full rounded-md border border-gray-300 text-gray-900 px-3 py-2 focus:border-purple-900 focus:outline-none focus:ring-1 focus:ring-purple-900"
                required
             />
           </div>
@@ -112,7 +112,7 @@ export default function Create() {
               value={formData.description}
               onChange={(e) => setFormData({ ...formData, description: e.target.value })}
               rows={4}
-              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border border-gray-300 text-gray-900 px-3 py-2 focus:border-purple-900 focus:outline-none focus:ring-1 focus:ring-purple-900"
               required
             />
           </div>
@@ -125,7 +125,7 @@ export default function Create() {
               id="status"
               value={formData.status}
               onChange={(e) => setFormData({ ...formData, status: e.target.value as Task["status"] })}
-              className="mt-1 block w-full rounded-md border border-gray-300 px-3 py-2 focus:border-blue-500 focus:outline-none focus:ring-1 focus:ring-blue-500"
+              className="mt-1 block w-full rounded-md border border-gray-300 text-gray-900 px-3 py-2 focus:border-purple-900 focus:outline-none focus:ring-1 focus:ring-purple-900"
             >
               <option value="pendente">Pendente</option>
               <option value="em_andamento">Em Andamento</option>
@@ -140,7 +140,7 @@ export default function Create() {
               className={`flex-1 px-4 py-2 rounded-md text-white transition-colors ${
                 loading 
                   ? 'bg-blue-300 cursor-not-allowed' 
-                  : 'bg-blue-500 hover:bg-blue-600'
+                  : 'bg-purple-600 hover:bg-purple-700'
               }`}
             >
               {loading ? 'Salvando...' : taskId ? 'Atualizar Tarefa' : 'Criar Tarefa'}

@@ -79,13 +79,13 @@ export function TaskTable({ tasks }: TaskTableProps) {
                 placeholder="Buscar tarefa..."
                 value={searchTerm}
                 onChange={(e) => setSearchTerm(e.target.value)}
-                className="w-full px-4 py-2 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full px-4 py-2 pl-10 border rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-900"
               />
               <MagnifyingGlassIcon className="h-5 w-5 text-gray-400 absolute left-3 top-1/2 transform -translate-y-1/2" />
             </div>
             <Link
               href="/create"
-              className={`flex items-center gap-2 px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition-colors ${
+              className={`flex items-center gap-2 px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition-colors ${
                 loading ? 'opacity-50 cursor-not-allowed' : ''
               }`}
             >
@@ -97,7 +97,7 @@ export function TaskTable({ tasks }: TaskTableProps) {
       </div>
 
       {/* Table */}
-      <div className="overflow-x-auto">
+      <div className="overflow-x-auto border-rounded-lg shadow-md">
         <div className="min-w-full">
           {/* Table Header */}
           <div className="bg-gray-50 border-b">
@@ -148,28 +148,28 @@ export function TaskTable({ tasks }: TaskTableProps) {
                       {task.status}
                     </span>
                   </div>
-                  <div className="flex-1 p-4 flex justify-center">
+                  <div className="flex-1 p-4 flex justify-start">
                     <button
                       onClick={() => handleEdit(task)}
                       disabled={loading}
-                      className={`p-1 text-blue-600 hover:bg-blue-50 rounded-full transition-colors ${
+                      className={`p-1 text-purple-800 hover:bg-blue-50 rounded-full transition-colors ${
                         loading ? 'opacity-50 cursor-not-allowed' : ''
                       }`}
                       title="Editar"
                     >
-                      <PencilIcon className="h-4 w-4" />
+                      <PencilIcon className="h-6 w-6" />
                     </button>
                   </div>
-                  <div className="flex-1 p-4 flex justify-center">
+                  <div className="flex-1 p-4 flex justify-start">
                     <button
                       onClick={() => handleDelete(task.id)}
                       disabled={loading || isDeleting === task.id}
-                      className={`p-1 text-red-600 hover:bg-red-50 rounded-full transition-colors ${
+                      className={`p-1 text-purple-800 hover:bg-red-50 rounded-full transition-colors ${
                         loading || isDeleting === task.id ? 'opacity-50 cursor-not-allowed' : ''
                       }`}
                       title="Excluir"
                     >
-                      <TrashIcon className="h-4 w-4" />
+                      <TrashIcon className="h-5 w-5" />
                     </button>
                   </div>
                 </div>
