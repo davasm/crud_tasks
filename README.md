@@ -64,4 +64,4 @@ Após iniciar o servidor, acesse **[http://localhost:3000/home](http://localhost
 
 ---
 
-⌨️ com ❤️ por [**Davi Soares de Macedo**](https://github.com/davasm)
+⌨️ por [**Davi Soares de Macedo**](https://github.com/davasm)
