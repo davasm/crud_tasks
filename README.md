@@ -11,6 +11,18 @@ Sistema de gerenciamento de tarefas desenvolvido com **Next.js**, **TypeScript**
 - 📊 Visualizar status das tarefas
 - 📱 Interface responsiva
 
+## 📸 Screenshots
+
+### Lista de Tarefas
+![Lista de Tarefas](/crud_tasks_app/public/Captura%20de%20tela%202025-03-04%20144853.png)
+
+### Criação de Tarefa
+![Buscar Tarefa](/crud_tasks_app/public/Captura%20de%20tela%202025-03-04%20144945.png)
+
+### Edição de Tarefa
+![Criar Tarefa](/crud_tasks_app/public/Captura%20de%20tela%202025-03-04%20145005.png)
+
+
 ## 🛠️ Tecnologias Utilizadas
 - [Next.js 14](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
