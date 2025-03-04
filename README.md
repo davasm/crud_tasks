@@ -16,10 +16,10 @@ Sistema de gerenciamento de tarefas desenvolvido com **Next.js**, **TypeScript**
 ### Lista de Tarefas
 ![Lista de Tarefas](/crud_tasks_app/public/Captura%20de%20tela%202025-03-04%20144853.png)
 
-### Criação de Tarefa
+### Buscar Tarefa
 ![Buscar Tarefa](/crud_tasks_app/public/Captura%20de%20tela%202025-03-04%20144945.png)
 
-### Edição de Tarefa
+### Criar Tarefa
 ![Criar Tarefa](/crud_tasks_app/public/Captura%20de%20tela%202025-03-04%20145005.png)
 
 
